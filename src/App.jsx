@@ -1,15 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Banner from './components/banner'
+import Header from './components/header'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-     <h1>My first page in react</h1>
-    </>
+    <div className='mx-40'>
+    <Header/>
+    <Banner/>
+    </div>
   )
 }
 
