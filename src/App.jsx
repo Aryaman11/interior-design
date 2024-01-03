@@ -4,7 +4,7 @@ import Banner from './components/banner'
 import Header from './components/header'
 import Framethree from './components/framethree'
 import Frameone from './components/frameOne'
-
+import Framefour from './components/framefour'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,6 +14,7 @@ function App() {
     <Banner/>
     <Frameone/>
     <Framethree/>
+    <Framefour/>
     </div>
   )
 }
