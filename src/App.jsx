@@ -6,6 +6,7 @@ import Framethree from './components/framethree'
 import Frameone from './components/frameOne'
 import Aboutus from './components/aboutUs'
 import Framefour from './components/framefour'
+import Framefive from './components/framefive'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,6 +18,7 @@ function App() {
     <Framethree/>
     <Aboutus/>
     <Framefour/>
+    <Framefive/>
     </div>
   )
 }
