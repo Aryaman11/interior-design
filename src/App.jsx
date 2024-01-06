@@ -11,6 +11,7 @@ import Framesix from './components/framesix'
 import Wannajoin from './components/wannaJoin'
 import Footer from './components/footer'
 import Freetrail from './components/freetrial'
+import Cards from './cards'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -26,7 +27,7 @@ function App() {
     <Framefour/>
     <Framesix/>
     <Framefive/>
-    
+    <Cards/>
     </div>
      <Wannajoin/>
      <Footer />
