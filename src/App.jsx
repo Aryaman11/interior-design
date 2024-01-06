@@ -24,7 +24,6 @@ function App() {
     <Freetrail/>
     <Aboutus/>
     <Framethree/>
-    <Aboutus/>
     <Framefour/>
     <Frameseven/>
     <Framefive/>
