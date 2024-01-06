@@ -26,6 +26,7 @@ function App() {
     <Framethree/>
     <Aboutus/>
     <Framefour/>
+    <Frameseven/>
     <Framefive/>
     <Framesix/>
     </div>
