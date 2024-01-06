@@ -8,10 +8,12 @@ import Aboutus from './components/aboutUs'
 import Framefour from './components/framefour'
 import Framefive from './components/framefive'
 import Framesix from './components/framesix'
+import Wannajoin from './components/wannaJoin'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+    <>
     <div className='mx-40'>
     <Header/>
     <Banner/>
@@ -22,6 +24,8 @@ function App() {
     <Framefive/>
     <Framesix/>
     </div>
+     <Wannajoin/>
+    </>
   )
 }
 
