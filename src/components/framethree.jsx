@@ -6,7 +6,7 @@ import Vector4 from './../../public/image/Frame.png'
 function Framethree (){
     const images = [Vector, Vector2, Vector3, Vector4];
     return(
-        <div className="inline-flex mt-14">
+        <div className="inline-flex mt-24">
             {
                 images.map((item, i) => {
                     return(

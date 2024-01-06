@@ -21,11 +21,12 @@ function App() {
     <Banner/>
     <Frameone/>
     <Freetrail/>
-    <Framethree/>
     <Aboutus/>
+    <Framethree/>
     <Framefour/>
-    <Framefive/>
     <Framesix/>
+    <Framefive/>
+    
     </div>
      <Wannajoin/>
      <Footer />
