@@ -8,6 +8,7 @@ import Aboutus from './components/aboutUs'
 import Framefour from './components/framefour'
 import Framefive from './components/framefive'
 import Framesix from './components/framesix'
+import Frameseven from './components/frameseven'
 import Wannajoin from './components/wannaJoin'
 import Footer from './components/footer'
 function App() {
@@ -19,11 +20,12 @@ function App() {
     <Header/>
     <Banner/>
     <Frameone/>
-    <Framethree/>
     <Aboutus/>
+    <Framethree/>
     <Framefour/>
-    <Framefive/>
+    <Frameseven/>
     <Framesix/>
+    <Framefive/>
     </div>
      <Wannajoin/>
      <Footer />
