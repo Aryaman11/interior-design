@@ -8,6 +8,7 @@ import Aboutus from './components/aboutUs'
 import Framefour from './components/framefour'
 import Framefive from './components/framefive'
 import Framesix from './components/framesix'
+import Frameseven from './components/frameseven'
 import Wannajoin from './components/wannaJoin'
 import Footer from './components/footer'
 import Freetrail from './components/freetrial'
@@ -25,9 +26,10 @@ function App() {
     <Aboutus/>
     <Framethree/>
     <Framefour/>
-    <Framesix/>
+    <Frameseven/>
     <Framefive/>
     <Cards/>
+    <Framesix/>
     </div>
      <Wannajoin/>
      <Footer />
