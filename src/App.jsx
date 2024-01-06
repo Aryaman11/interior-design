@@ -9,6 +9,7 @@ import Framefour from './components/framefour'
 import Framefive from './components/framefive'
 import Framesix from './components/framesix'
 import Wannajoin from './components/wannaJoin'
+import Footer from './components/footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -25,6 +26,7 @@ function App() {
     <Framesix/>
     </div>
      <Wannajoin/>
+     <Footer />
     </>
   )
 }
