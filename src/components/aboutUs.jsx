@@ -1,6 +1,6 @@
 function Aboutus (){
     return (
-        <div className="bg-[#D8A876] rounded-[48px]">
+        <div className="bg-[#D8A876] rounded-[48px] mt-32">
             <div className="pt-12">
                 <p className="text-white font-serif text-5xl text-center px-48">What the People Thinks About Us</p>
                 </div>
