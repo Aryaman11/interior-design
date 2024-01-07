@@ -1,6 +1,6 @@
  function Header() {
     return(
-        <div className='my-12 h-12.5'>
+        <div className='my-8 h-12.5 mx-40'>
      <div className='inline-flex' >
       <span className='mr-2'>
         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
