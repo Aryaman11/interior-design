@@ -2,6 +2,7 @@ import { RouterProvider , createBrowserRouter} from 'react-router-dom'
 import './App.css'
 import Home from './pages/home';
 import Pricing from './pages/pricing';
+import ProjectDetail from './pages/projectDetail';
 
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
     path: "/pricing",
     element: <Pricing/> ,
   },
+  {
+    path : '/projectDetail',
+    element : <ProjectDetail/>
+  }
 ]);
 
 
