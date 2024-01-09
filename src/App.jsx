@@ -12,6 +12,7 @@ function App() {
     path: "/",
     element: <Home/> ,
   },
+
   {
     path: "/pricing",
     element: <Pricing/> ,
@@ -19,7 +20,8 @@ function App() {
   {
     path : '/projectDetail',
     element : <ProjectDetail/>
-  }
+  },
+  
 ]);
 
 
