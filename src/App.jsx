@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/home';
 import Pricing from './pages/pricing';
 import ProjectDetail from './pages/projectDetail';
+import Projects from './pages/projects';
 
 
 function App() {
@@ -21,7 +22,12 @@ function App() {
     path : '/projectDetail',
     element : <ProjectDetail/>
   },
+  {
+    
+      path : '/project',
+      element : <Projects/>
   
+  }
 ]);
 
 

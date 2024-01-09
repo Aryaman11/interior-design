@@ -1,14 +1,12 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
+import ListingBanner from "../components/listingBanner";
 function Pricing(){
     return (
        <>
         <div className="">
             <Header/>
-            <div className="relative mx-40">
-              <img src ="./../../image/pricingBanner.png" alt=""/>
-              <p className="text-white absolute font-serif text-3xl top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">Pricing & Plan</p>
-            </div>
+            <ListingBanner info={"Pricing & Plan"}/>
             <div className='flex mt-32 mb-44 mx-40'>
               <div className="w-1/3 font-serif text-xl text-center">
                 <p className="">Design advices</p>
