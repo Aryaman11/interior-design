@@ -13,22 +13,22 @@
       <span className="text-[#292F36] leading-tight text-4xl font-normal mr-24 font-serif mt-1">SELHONO</span>
       <div className='mt-4 mb-2'>
         <span className='mx-4 leading-tight text-xl font-medium'>
-          Home
+          <a href='/' alt='Home'>Home</a>
         </span>
         <span className='mx-4 leading-tight text-xl font-medium'>
-          Pages
+          <a href='/pages' alt='Pages'>Pages</a>
         </span>
         <span className='mx-4 leading-tight text-xl font-medium'>
-          Services
+          <a href="/services" alt='Services'>Services</a>
         </span>
         <span className='mx-4 leading-tight text-xl font-medium'>
-          Project
+          <a href="/project" alt='Projects'>Project</a>
         </span>
         <span className='mx-4 leading-tight text-xl font-medium'>
-          Blog
+          <a href="/blog" alt='Blog'>Blog</a>
         </span>
         <span className='mx-4 leading-tight text-xl font-medium'>
-          Contact
+          <a href="contact" alt="Contacts">Contact</a>
         </span>
       </div>
       <span className='mt-4 mb-2 -ml-3'>
