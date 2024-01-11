@@ -10,7 +10,7 @@ function Banner (){
             <p className="text-white mt-2 font-serif">There are many variations of the passages <br/> of lorem Ipsum fromavailable, majority.</p>
             
             <button className=" bg-[#CDA274] flex px-6 py-2 items-center rounded-xl mt-6">
-                <p className="mr-2 text-white font-serif">Get Started</p>
+                <p className="mr-2 text-white font-serif"><a href="/pricing">Get Started</a></p>
                 
                     <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path id="Vector" d="M1 8.43536L14.7232 8.29851M9.61818 1.91132L16.1412 8.4343L9.48677 15.0887" stroke="white" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>

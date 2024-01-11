@@ -1,10 +1,10 @@
 import { RouterProvider , createBrowserRouter} from 'react-router-dom'
 import './App.css'
+import Error404 from './pages/Error404';
 import Home from './pages/home';
 import Pricing from './pages/pricing';
 import ProjectDetail from './pages/projectDetail';
 import Projects from './pages/projects';
-
 
 function App() {
 
@@ -13,6 +13,7 @@ function App() {
     path: "/",
     element: <Home/> ,
   },
+
   {
     path: "/pricing",
     element: <Pricing/> ,
@@ -26,7 +27,14 @@ function App() {
       path : '/project',
       element : <Projects/>
   
-  }
+  },
+  {
+    
+      path : '*',
+      element : <Error404/>
+  
+  },
+  
 ]);
 
 
