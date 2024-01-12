@@ -1,8 +1,8 @@
-function Frameone (){
+function Frameone (props){
     return (
         <div className="mt-16 flex">
             <div className="m-11 w-80 self-center">
-               <p className="font-serif text-2xl text-center"> Project Plan </p>
+               <p className="font-serif text-2xl text-center">{props.info1}</p>
                 <p className="mt-4 text-center ">There are many variations of the passages of lorem Ipsum from available, majority.</p>
                 <div className="flex justify-center mt-8 text-lg leading-6 items-center">
                    <p className="mr-2">Read more</p> 
@@ -12,8 +12,8 @@ function Frameone (){
 
                 </div>
             </div>
-            <div className="m-11 w-80 justify-start ">
-                <p className="font-serif text-2xl text-center"> Interior Work </p>
+            <div className={`m-11 w-80 justify-start ${props.color}`}>
+                <p className="font-serif text-2xl text-center">{props.info2}</p>
                 <div className="mt-4 text-center">There are many variations of the passages of lorem Ipsum from available, majority.</div>
                 <div className="flex justify-center mt-8 text-lg leading-6 items-center">
                    <p className="mr-2">Read more</p> 
@@ -23,7 +23,7 @@ function Frameone (){
                 </div>
             </div>
             <div className="m-11 w-80 justify-start">
-                <p className="font-serif text-2xl text-center"> Realization </p>
+                <p className="font-serif text-2xl text-center">{props.info3}</p>
                 <div className="mt-4 text-center">There are many variations of the passages of lorem Ipsum from available, majority.</div>
                 <div className="flex justify-center mt-8 text-lg leading-6 items-center">
                    <p className="mr-2">Read more</p> 
