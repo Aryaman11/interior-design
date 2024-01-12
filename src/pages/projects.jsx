@@ -8,14 +8,15 @@ function Projects () {
            <Header/> 
            <ListingBanner info={"Our Project"}/>
            <div className='flex mt-32 mb-44 mx-40 mt-6'>
-             <div className="flex mx-auto bg-orange-400 rounded-lg">
-                <p className="text-2xl px-px ">Bedroom</p>
+             <div className="flex mx-auto bg-orange-200 rounded-3xl p-3">
+                <p className="text-2xl px-px text-white">Bedroom</p>
              </div>
            </div>
            <div className="mt-32 mb-44 mx-40 mt-6">
             <div className="grid grid-cols-2 gap-y-px mt-28">
              <div className="mx-8 my-8">
               <img src="./../../public/image/Rectangle27.png"/>
+              <a href="/projectDetail">
               <div className="flex  space-x-72 mt-3">
                 <div>
                  <p className="text-xl">Modern Bedroom</p>
@@ -33,9 +34,11 @@ function Projects () {
                </svg>
                </div>
               </div>
+              </a>
             </div>
             <div className="mx-8 my-8">
               <img src="./../../public/image/Rectangle28.png"/>
+              <a href="/projectDetail">
               <div className="flex  space-x-72 mt-3">
               <div>
                 <p className="text-xl">Modern Bedroom</p>
@@ -53,10 +56,13 @@ function Projects () {
                </svg>
               </div>
               </div>
+              </a>
             </div>
             <div className="mx-8 my-8">
               <img src="./../../public/image/Rectangle29.png"/>
+              <a href="/projectDetail">
               <div className="flex  space-x-72 mt-3">
+                
               <div>
                 <p className="text-xl">Modern Bedroom</p>
                 <p>Decor/Artchitech</p>
@@ -72,10 +78,13 @@ function Projects () {
                </g>
                </svg>
               </div>
+              
               </div>
+              </a>
             </div>
             <div className="mx-8 my-8">
               <img src="./../../public/image/Rectangle30.png"/>
+              <a href="/projectDetail">
               <div className="flex  space-x-72 mt-3">
               <div>
                 <p className="text-xl">Modern Bedroom</p>
@@ -93,9 +102,11 @@ function Projects () {
                </svg>
               </div>
               </div>
+              </a>
             </div>
             <div className="mx-8 my-8">
               <img src="./../../public/image/Rectangle31.png"/>
+              <a href="/projectDetail">
               <div className="flex  space-x-72 mt-3">
               <div>
                 <p className="text-xl">Modern Bedroom</p>
@@ -113,9 +124,11 @@ function Projects () {
                </svg>
               </div>
               </div>
+              </a>
             </div>
             <div className="mx-8 my-8">
               <img src="./../../public/image/Rectangle32.png"/>
+              <a href="/projectDetail">
               <div className="flex  space-x-72 mt-3">
               <div>
                 <p className="text-xl">Modern Bedroom</p>
@@ -133,6 +146,7 @@ function Projects () {
                </svg>
               </div>
               </div>
+              </a>
             </div>
 
             </div>
