@@ -5,6 +5,7 @@ import Home from './pages/home';
 import Pricing from './pages/pricing';
 import ProjectDetail from './pages/projectDetail';
 import Projects from './pages/projects';
+import Services from './pages/services';
 
 function App() {
 
@@ -30,10 +31,17 @@ function App() {
   },
   {
     
-      path : '*',
-      element : <Error404/>
+      path : '/services',
+      element : <Services/>
   
   },
+  {
+    
+    path : '*',
+    element : <Error404/>
+
+  },
+
   
 ]);
 

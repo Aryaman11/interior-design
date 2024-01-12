@@ -6,7 +6,7 @@ function Projects () {
      return(
         <div>
            <Header/> 
-           <ListingBanner info={"Our Project"}/>
+           <ListingBanner info={"Our Project"} link={'./../../image/pricingBanner.png'}/>
            <div className='flex mt-32 mb-44 mx-40 mt-6'>
              <div className="flex mx-auto bg-orange-200 rounded-3xl p-3">
                 <p className="text-2xl px-px text-white">Bedroom</p>

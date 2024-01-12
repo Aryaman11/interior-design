@@ -11,7 +11,7 @@ function Frameone (){
                     </svg>
 
                 </div>
-                </div>
+            </div>
             <div className="m-11 w-80 justify-start ">
                 <p className="font-serif text-2xl text-center"> Interior Work </p>
                 <div className="mt-4 text-center">There are many variations of the passages of lorem Ipsum from available, majority.</div>
@@ -21,7 +21,7 @@ function Frameone (){
                     <path d="M1.92944 8.43529L15.6526 8.29844M10.5476 1.91125L17.0706 8.43424L10.4162 15.0886" stroke="black" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                </div>
+            </div>
             <div className="m-11 w-80 justify-start">
                 <p className="font-serif text-2xl text-center"> Realization </p>
                 <div className="mt-4 text-center">There are many variations of the passages of lorem Ipsum from available, majority.</div>
@@ -31,7 +31,7 @@ function Frameone (){
                     <path d="M1.92944 8.43529L15.6526 8.29844M10.5476 1.91125L17.0706 8.43424L10.4162 15.0886" stroke="black" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
                     </svg>
                 </div>
-                </div>
+            </div>
 
         </div>
     )
