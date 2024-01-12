@@ -1,5 +1,6 @@
 import { RouterProvider , createBrowserRouter} from 'react-router-dom'
 import './App.css'
+import Contactus from './pages/contactUs';
 import Error404 from './pages/Error404';
 import Home from './pages/home';
 import Pricing from './pages/pricing';
@@ -30,9 +31,13 @@ function App() {
   
   },
   {
-    
       path : '/services',
       element : <Services/>
+  
+  },
+  {
+      path : '/contactus',
+      element : <Contactus/>
   
   },
   {
