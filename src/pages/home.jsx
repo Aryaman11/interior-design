@@ -19,11 +19,11 @@ function Home (){
           <div className='mx-40 pt-8'>
             
             <Banner/>
-            <Frameone/>
+            <Frameone info1='Project Plans' info2='Interior work' info3='Retail Design' color='text-black'/>
             <Freetrail/>
             <Aboutus/>
             <Framethree/>
-            <Framefour/>
+            <Framefour info1='Follow Our Projects'/>
             <Frameseven/>
             <Framefive/>
             <Cards/>
