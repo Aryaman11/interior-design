@@ -4,6 +4,7 @@ import Framefour from "../components/framefour";
 import Header from "../components/header";
 import ListingBanner from "../components/listingBanner";
 import Servicescomp from "../components/servicescomp";
+import Wannajoin from "../components/wannaJoin";
 
 function Services(){
       return(
@@ -16,6 +17,7 @@ function Services(){
              <Framefour info1='How We Work'/>
             </div>
             <Servicescomp/>
+            <Wannajoin/>
             <Footer/>
          </div>
       )
