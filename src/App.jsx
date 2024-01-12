@@ -6,6 +6,7 @@ import Home from './pages/home';
 import Pricing from './pages/pricing';
 import ProjectDetail from './pages/projectDetail';
 import Projects from './pages/projects';
+import Services from './pages/services';
 
 function App() {
 
@@ -30,17 +31,22 @@ function App() {
   
   },
   {
-    
+      path : '/services',
+      element : <Services/>
+  
+  },
+  {
       path : '/contactus',
       element : <Contactus/>
   
   },
   {
     
-      path : '*',
-      element : <Error404/>
-  
+    path : '*',
+    element : <Error404/>
+
   },
+
   
 ]);
 
