@@ -1,5 +1,6 @@
 import { RouterProvider , createBrowserRouter} from 'react-router-dom'
 import './App.css'
+import Blog from './pages/blog';
 import Contactus from './pages/contactUs';
 import Error404 from './pages/Error404';
 import Home from './pages/home';
@@ -38,6 +39,11 @@ function App() {
   {
       path : '/contactus',
       element : <Contactus/>
+  
+  },
+  {
+      path : '/blog',
+      element : <Blog/>
   
   },
   {
