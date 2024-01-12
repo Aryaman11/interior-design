@@ -28,7 +28,7 @@
           <a href="/blog" alt='Blog'>Blog</a>
         </span>
         <span className='mx-4 leading-tight text-xl font-medium'>
-          <a href="contact" alt="Contacts">Contact</a>
+          <a href="/contactus" alt="Contacts">Contact</a>
         </span>
       </div>
       <span className='mt-4 mb-2 -ml-3'>
