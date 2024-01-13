@@ -16,7 +16,7 @@
           <a href='/' alt='Home'>Home</a>
         </span>
         <span className='mx-4 leading-tight text-xl font-medium'>
-          <a href='/pages' alt='Pages'>Pages</a>
+          <a href='/aboutus' alt='Pages'>About Us</a>
         </span>
         <span className='mx-4 leading-tight text-xl font-medium'>
           <a href="/services" alt='Services'>Services</a>

@@ -1,5 +1,6 @@
 import { RouterProvider , createBrowserRouter} from 'react-router-dom'
 import './App.css'
+import AboutUs from './pages/aboutUs';
 import Blog from './pages/blog';
 import Contactus from './pages/contactUs';
 import Error404 from './pages/Error404';
@@ -51,7 +52,11 @@ function App() {
     path : '/singleservices',
     element : <Singleservices/>
 
-},
+},{
+      path : '/aboutus',
+      element : <AboutUs/>
+  
+  },
   {
     
     path : '*',

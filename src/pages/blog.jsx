@@ -38,6 +38,48 @@ function Blog(){
             
             
         </div>
+        <div className="text-3xl font-serif mx-40 text-[#292F36] leading-5 tracking-wide mt-16 mb-44">
+            Articles & News
+            <div className="mt-12 flex justify-items-center items-center">
+             <div className="w-1/3 p-4">
+              <img className="" src="./../../public/image/blog-1.png"/>
+              <p className="pr-4 text-lg font-semibold text-[#292F36] leading-5 mt-8 ">Let’s Get Solution For Building Construction Work</p>
+              <p className="pt-4 text-[#4D5053] text-sm flex justify-items-center items-center">26 December,2022
+              <span className="pl-24">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
+                <circle cx="26" cy="26" r="26" fill="#F4F0EC"/>
+                <path d="M23.772 32.6855L29.7148 25.9998L23.772 19.3141" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              </p>
+             </div>
+             <div className="w-1/3 p-4">
+              <img className="" src="./../../public/image/blog-1.png"/>
+              <p className="pr-4 text-lg font-semibold text-[#292F36] leading-5 mt-8 ">Let’s Get Solution For Building Construction Work</p>
+              <p className="pt-4 text-[#4D5053] text-sm flex justify-items-center items-center">26 December,2022
+              <span className="pl-24">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
+                <circle cx="26" cy="26" r="26" fill="#F4F0EC"/>
+                <path d="M23.772 32.6855L29.7148 25.9998L23.772 19.3141" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              </p>
+             </div>
+             <div className="w-1/3 p-4">
+              <img className="" src="./../../public/image/blog-1.png"/>
+              <p className="pr-4 text-lg font-semibold text-[#292F36] leading-5 mt-8 ">Let’s Get Solution For Building Construction Work</p>
+              <p className="pt-4 text-[#4D5053] text-sm flex justify-items-center items-center">26 December,2022
+              <span className="pl-24">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52" fill="none">
+                <circle cx="26" cy="26" r="26" fill="#F4F0EC"/>
+                <path d="M23.772 32.6855L29.7148 25.9998L23.772 19.3141" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              </p>
+             </div>
+            </div>
+            
+        </div>
         <Footer/>
         </div>
     )
