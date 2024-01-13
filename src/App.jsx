@@ -8,6 +8,7 @@ import Pricing from './pages/pricing';
 import ProjectDetail from './pages/projectDetail';
 import Projects from './pages/projects';
 import Services from './pages/services';
+import Singleservices from './pages/singleservices';
 
 function App() {
 
@@ -46,6 +47,11 @@ function App() {
       element : <Blog/>
   
   },
+  {
+    path : '/singleservices',
+    element : <Singleservices/>
+
+},
   {
     
     path : '*',
